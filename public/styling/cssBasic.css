@@ -1175,7 +1175,7 @@
   content: "\e660";
 }
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   line-height: 1.72222;
   color: #34495e;
@@ -1445,7 +1445,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: 'Nunito Sans', sans-serif;
 }
 code {
   padding: 2px 6px;
@@ -2116,7 +2116,7 @@ label {
 .select2-search input[type="text"] {
   border: 2px solid #bdc3c7;
   color: #34495e;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
   line-height: 1.467;
   padding: 8px 12px;
@@ -4881,7 +4881,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 .navbar {
   font-size: 16px;
-  min-height: 53px;
+  min-height: 75px;
   margin-bottom: 30px;
   border: none;
   border-radius: 0px;
@@ -4962,11 +4962,13 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   border-width: 0;
 }
 .navbar-brand {
-  font-size: 20px;
+  font-size: 35px;
   line-height: 1.042;
-  height: 53px;
-  font-weight: 700;
-  padding: 14px 21px;
+  height: 75px;
+  font-weight: 650;
+  padding: 20px 35px;
+  display: flex;
+  height: 100%;
 }
 .navbar-brand > [class*="fui-"] {
   font-size: 19px;
@@ -5019,10 +5021,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin: 0;
 }
 .navbar-nav > li > a {
-  font-size: 14px;
-  padding: 15px 21px;
+  font-size: 17px;
+  padding: 15px 16px;
   line-height: 23px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus,
@@ -5214,7 +5216,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 }
 .navbar-unread,
 .navbar-new {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #1abc9c;
   border-radius: 50%;
   color: #ffffff;
@@ -5402,7 +5404,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #34495e;
+  background-color: #007c0e;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar-inverse .navbar-brand {
   color: #ffffff;
@@ -5437,7 +5443,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #1abc9c;
+  color: #fff;
+  font-size: 19px;
   background-color: transparent;
 }
 
@@ -5460,8 +5467,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > .dropdown > a:hover .caret,
 .navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #1abc9c;
-  border-bottom-color: #1abc9c;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -5477,11 +5484,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-bottom-color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
-  border-top-color: #4b6075;
-  border-bottom-color: #4b6075;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
 }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu {
-  background-color: #34495e;
+  background-color: #007c0e;
   padding: 3px 4px;
 }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a {
@@ -6106,7 +6113,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   bottom: 4em;
   left: 1em;
   right: 1em;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .vjs-text-track {
   display: none;
@@ -6340,7 +6347,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   background-color: #117a65;
 }
 .vjs-time-controls {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: normal;
@@ -7106,3 +7113,10 @@ footer p {
 
 }
 /*# sourceMappingURL=flat-ui.css.map */
+
+.navbar .container,
+.navbar .container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

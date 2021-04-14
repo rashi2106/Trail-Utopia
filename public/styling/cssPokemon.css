@@ -927,7 +927,7 @@
   content: "\e660";
 }
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   line-height: 1.72222;
   color: #34495e;
@@ -1197,7 +1197,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: 'Nunito Sans', sans-serif;
 }
 code {
   padding: 2px 6px;
@@ -1868,7 +1868,7 @@ label {
 .select2-search input[type="text"] {
   border: 2px solid #bdc3c7;
   color: #34495e;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
   line-height: 1.467;
   padding: 8px 12px;
@@ -4966,7 +4966,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 }
 .navbar-unread,
 .navbar-new {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #1abc9c;
   border-radius: 50%;
   color: #ffffff;
@@ -5858,7 +5858,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   bottom: 4em;
   left: 1em;
   right: 1em;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .vjs-text-track {
   display: none;
@@ -6092,7 +6092,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   background-color: #117a65;
 }
 .vjs-time-controls {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: normal;
