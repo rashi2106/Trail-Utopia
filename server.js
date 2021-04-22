@@ -9,4 +9,5 @@ app.get("/", (req, res) => {
 
 app.listen(process.env.PORT || 5000, () => {
   console.log("The server is up and running!");
+  console.log(__dirname);
 });
