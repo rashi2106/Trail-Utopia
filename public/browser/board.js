@@ -695,6 +695,7 @@ Board.prototype.toggleTutorialButtons = function() {
 
   document.getElementById("skipButton").onclick = () => {
     document.getElementById("tutorial").style.display = "none";
+    document.getElementById("tutorial-cover").style.display = "none";
     this.toggleButtons();
   }
 
