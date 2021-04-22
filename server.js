@@ -9,5 +9,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log("The server is up and running! fghf dfgfd");
+  console.log("The server is up and running!");
 });
