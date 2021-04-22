@@ -735,6 +735,7 @@ Board.prototype.toggleTutorialButtons = function() {
       document.getElementById("tutorial").innerHTML = `<h3>Enjoy!</h3><h6>I hope you have just as much fun playing around with this visualization tool as I had building it!</h6><p>If you want to see the source code for this application, check out my <a href="https://github.com/clementmihailescu/Pathfinding-Visualizer">github</a>.</p><div id="tutorialCounter">${counter}/9</div><button id="finishButton" class="btn btn-default navbar-btn" type="button">Finish</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
       document.getElementById("finishButton").onclick = () => {
         document.getElementById("tutorial").style.display = "none";
+        document.getElementById("tutorial-cover").style.display = "none";
         board.toggleButtons();
       }
     }
